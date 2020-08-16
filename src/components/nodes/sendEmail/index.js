@@ -1,7 +1,7 @@
 import idConfigSettings from '@/components/inspectors/idConfigSettings';
 import component from './sendEmail';
 
-window.ProcessMaker.EventBus.$on('modeler-init', ({ registerNode }) => {
+window.ProcessMaker.EventBus.$on('modeler-init', ({registerNode}) => {
   /* Add a custom node example */
 
   const implementation = 'antnest-mailgun';
@@ -20,7 +20,7 @@ window.ProcessMaker.EventBus.$on('modeler-init', ({ registerNode }) => {
       return moddle.create('bpmn:ServiceTask', {
         name: 'Send Mail',
         implementation,
-        config: JSON.stringify({ receiver: '', cc: '', bcc: '', subject: '', body: '' }),
+        config: JSON.stringify({receiver: '', cc: '', bcc: '', subject: '', body: ''}),
       });
     },
     diagram(moddle) {
@@ -30,6 +30,9 @@ window.ProcessMaker.EventBus.$on('modeler-init', ({ registerNode }) => {
           width: 116,
         }),
       });
+    },
+    confirm(msg = '') {
+      alert(msg);
     },
     /* Map values from inspector data to node definition  */
     inspectorHandler(value, node, setNodeProp) {
@@ -56,7 +59,7 @@ window.ProcessMaker.EventBus.$on('modeler-init', ({ registerNode }) => {
         if (key === 'config') {
           try {
             const config = JSON.parse(value);
-            return { ...data, ...config };
+            return {...data, ...config};
           } catch (error) {
             /* Ignore invalid JSON */
           }

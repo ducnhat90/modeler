@@ -3593,6 +3593,13 @@ module.exports = require("@processmaker/vue-form-elements");
 
 /***/ }),
 
+/***/ "2afb":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cog-icon.96db5740.svg";
+
+/***/ }),
+
 /***/ "2b03":
 /***/ (function(module, exports) {
 
@@ -22624,12 +22631,12 @@ var associationConfig_direction = {
   one: 'One',
   both: 'Both'
 };
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/crown/crownConfig/crownConfig.vue?vue&type=template&id=61cb5e44&
-var crownConfigvue_type_template_id_61cb5e44_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.showCrown)?_c('div',{staticClass:"crown-config",style:(_vm.style),attrs:{"role":"menu"}},[_vm._t("default"),_c('association-flow-button',_vm._g({attrs:{"node":_vm.node,"moddle":_vm.moddle,"shape":_vm.shape},on:{"toggle-crown-state":function($event){_vm.showCrown = $event}}},_vm.$listeners)),_c('sequence-flow-button',_vm._g({attrs:{"node":_vm.node,"node-registry":_vm.nodeRegistry,"moddle":_vm.moddle},on:{"toggle-crown-state":function($event){_vm.showCrown = $event}}},_vm.$listeners)),_c('message-flow-button',_vm._g({attrs:{"node":_vm.node,"moddle":_vm.moddle,"shape":_vm.shape},on:{"toggle-crown-state":function($event){_vm.showCrown = $event}}},_vm.$listeners)),_c('default-flow',_vm._g({attrs:{"node":_vm.node}},_vm.$listeners)),_c('crown-dropdowns',_vm._g({attrs:{"dropdown-data":_vm.dropdownData,"boundary-event-dropdown-data":_vm.boundaryEventDropdownData,"node":_vm.node,"node-registry":_vm.nodeRegistry,"moddle":_vm.moddle,"shape":_vm.shape,"task-dropdown-initially-open":_vm.taskDropdownInitiallyOpen},on:{"replace-node-type":_vm.replaceNodeTypePrompt}},_vm.$listeners)),_c('copy-button',_vm._g({attrs:{"node":_vm.node}},_vm.$listeners)),_c('delete-button',_vm._g({attrs:{"graph":_vm.graph,"shape":_vm.shape,"node":_vm.node}},_vm.$listeners)),_c('b-modal',{ref:"modal",attrs:{"id":"modal-prevent-closing","title":_vm.$t('Change Type'),"ok-title":_vm.$t('Confirm'),"cancel-title":_vm.$t('Cancel')},on:{"hidden":function($event){_vm.showReplaceModal = false},"ok":_vm.confirmedReplaceNodeType},model:{value:(_vm.showReplaceModal),callback:function ($$v) {_vm.showReplaceModal=$$v},expression:"showReplaceModal"}},[_c('p',[_vm._v(_vm._s(_vm.$t('Changing this type will replace your current configuration')))])])],2):_vm._e()}
-var crownConfigvue_type_template_id_61cb5e44_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/crown/crownConfig/crownConfig.vue?vue&type=template&id=463d1b2a&
+var crownConfigvue_type_template_id_463d1b2a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.showCrown)?_c('div',{staticClass:"crown-config",style:(_vm.style),attrs:{"role":"menu"}},[_vm._t("default"),_c('association-flow-button',_vm._g({attrs:{"node":_vm.node,"moddle":_vm.moddle,"shape":_vm.shape},on:{"toggle-crown-state":function($event){_vm.showCrown = $event}}},_vm.$listeners)),_c('sequence-flow-button',_vm._g({attrs:{"node":_vm.node,"node-registry":_vm.nodeRegistry,"moddle":_vm.moddle},on:{"toggle-crown-state":function($event){_vm.showCrown = $event}}},_vm.$listeners)),_c('message-flow-button',_vm._g({attrs:{"node":_vm.node,"moddle":_vm.moddle,"shape":_vm.shape},on:{"toggle-crown-state":function($event){_vm.showCrown = $event}}},_vm.$listeners)),_c('default-flow',_vm._g({attrs:{"node":_vm.node}},_vm.$listeners)),_c('crown-dropdowns',_vm._g({attrs:{"dropdown-data":_vm.dropdownData,"boundary-event-dropdown-data":_vm.boundaryEventDropdownData,"node":_vm.node,"node-registry":_vm.nodeRegistry,"moddle":_vm.moddle,"shape":_vm.shape,"task-dropdown-initially-open":_vm.taskDropdownInitiallyOpen},on:{"replace-node-type":_vm.replaceNodeTypePrompt}},_vm.$listeners)),(_vm.showConfigIcon)?_c('config-button',_vm._g({attrs:{"node":_vm.node}},_vm.$listeners)):_vm._e(),_c('copy-button',_vm._g({attrs:{"node":_vm.node}},_vm.$listeners)),_c('delete-button',_vm._g({attrs:{"graph":_vm.graph,"shape":_vm.shape,"node":_vm.node}},_vm.$listeners)),_c('b-modal',{ref:"modal",attrs:{"id":"modal-prevent-closing","title":_vm.$t('Change Type'),"ok-title":_vm.$t('Confirm'),"cancel-title":_vm.$t('Cancel')},on:{"hidden":function($event){_vm.showReplaceModal = false},"ok":_vm.confirmedReplaceNodeType},model:{value:(_vm.showReplaceModal),callback:function ($$v) {_vm.showReplaceModal=$$v},expression:"showReplaceModal"}},[_c('p',[_vm._v(_vm._s(_vm.$t('Changing this type will replace your current configuration')))])])],2):_vm._e()}
+var crownConfigvue_type_template_id_463d1b2a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/crown/crownConfig/crownConfig.vue?vue&type=template&id=61cb5e44&
+// CONCATENATED MODULE: ./src/components/crown/crownConfig/crownConfig.vue?vue&type=template&id=463d1b2a&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.includes.js
 var es_array_includes = __webpack_require__("caad");
@@ -23630,6 +23637,70 @@ var copyButton_component = normalizeComponent(
 )
 
 /* harmony default export */ var copyButton = (copyButton_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/crown/crownButtons/configButton.vue?vue&type=template&id=51aa9996&
+var configButtonvue_type_template_id_51aa9996_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('crown-button',{directives:[{name:"b-tooltip",rawName:"v-b-tooltip.hover.viewport.d50",value:({ customClass: 'no-pointer-events' }),expression:"{ customClass: 'no-pointer-events' }",modifiers:{"hover":true,"viewport":true,"d50":true}}],attrs:{"title":_vm.$t('Config Element'),"aria-label":"Config Element","data-test":"config-button","role":"menuitem","src":_vm.cogIcon},on:{"click":_vm.configNode}})}
+var configButtonvue_type_template_id_51aa9996_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/crown/crownButtons/configButton.vue?vue&type=template&id=51aa9996&
+
+// EXTERNAL MODULE: ./src/assets/cog-icon.svg
+var cog_icon = __webpack_require__("2afb");
+var cog_icon_default = /*#__PURE__*/__webpack_require__.n(cog_icon);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/crown/crownButtons/configButton.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ var configButtonvue_type_script_lang_js_ = ({
+  components: {
+    CrownButton: crownButton
+  },
+  props: ['node'],
+  data: function data() {
+    return {
+      cogIcon: cog_icon_default.a
+    };
+  },
+  methods: {
+    configNode: function configNode() {
+      this.$emit('show-config-modal', this.node);
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/crown/crownButtons/configButton.vue?vue&type=script&lang=js&
+ /* harmony default export */ var crownButtons_configButtonvue_type_script_lang_js_ = (configButtonvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/crown/crownButtons/configButton.vue
+
+
+
+
+
+/* normalize component */
+
+var configButton_component = normalizeComponent(
+  crownButtons_configButtonvue_type_script_lang_js_,
+  configButtonvue_type_template_id_51aa9996_render,
+  configButtonvue_type_template_id_51aa9996_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var configButton = (configButton_component.exports);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/crown/crownButtons/crownDropdowns.vue?vue&type=template&id=c13bf536&scoped=true&
 var crownDropdownsvue_type_template_id_c13bf536_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"dropdown"}},[_c('crown-task-dropdown',_vm._g({attrs:{"dropdown-data":_vm.dropdownData,"dropdown-open":_vm.taskDropdownOpen,"node":_vm.node},on:{"toggle-dropdown-state":_vm.taskDropdownToggle}},_vm.$listeners)),_c('crown-boundary-event-dropdown',_vm._g({attrs:{"dropdown-data":_vm.boundaryEventDropdownData,"dropdown-open":_vm.boundaryEventDropdownOpen,"nodeRegistry":_vm.nodeRegistry,"moddle":_vm.moddle,"node":_vm.node,"shape":_vm.shape},on:{"toggle-dropdown-state":_vm.boundaryEventDropdownToggle}},_vm.$listeners)),_c('crown-color-dropdown',_vm._g({attrs:{"dropdown-open":_vm.colorDropdownOpen,"node":_vm.node},on:{"toggle-dropdown-state":_vm.colorDropdownToggle}},_vm.$listeners))],1)}
 var crownDropdownsvue_type_template_id_c13bf536_scoped_true_staticRenderFns = []
@@ -24597,6 +24668,13 @@ var defaultFlowButton_component = normalizeComponent(
 //
 //
 //
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -24617,7 +24695,8 @@ var defaultFlowButton_component = normalizeComponent(
     SequenceFlowButton: sequenceFlowButton,
     AssociationFlowButton: associationFlowButton,
     CopyButton: copyButton,
-    DefaultFlow: defaultFlowButton
+    DefaultFlow: defaultFlowButton,
+    ConfigButton: configButton
   },
   props: {
     highlighted: Boolean,
@@ -24642,7 +24721,8 @@ var defaultFlowButton_component = normalizeComponent(
       default: function _default() {
         return [];
       }
-    }
+    },
+    showConfigIcon: Boolean
   },
   mixins: [poolLaneCrownConfig],
   watch: {
@@ -24860,8 +24940,8 @@ var crownConfigvue_type_style_index_0_lang_scss_ = __webpack_require__("2b4c");
 
 var crownConfig_component = normalizeComponent(
   crownConfig_crownConfigvue_type_script_lang_js_,
-  crownConfigvue_type_template_id_61cb5e44_render,
-  crownConfigvue_type_template_id_61cb5e44_staticRenderFns,
+  crownConfigvue_type_template_id_463d1b2a_render,
+  crownConfigvue_type_template_id_463d1b2a_staticRenderFns,
   false,
   null,
   null,
@@ -38930,12 +39010,12 @@ function registerNodes(_ref) {
   });
   registerBpmnExtension('pm', processmaker);
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=9cfe2d08&
-var sendEmailvue_type_template_id_9cfe2d08_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('crown-config',_vm._g({attrs:{"highlighted":_vm.highlighted,"paper":_vm.paper,"graph":_vm.graph,"shape":_vm.shape,"node":_vm.node,"nodeRegistry":_vm.nodeRegistry,"moddle":_vm.moddle,"collaboration":_vm.collaboration,"process-node":_vm.processNode,"plane-elements":_vm.planeElements,"is-rendering":_vm.isRendering}},_vm.$listeners))}
-var sendEmailvue_type_template_id_9cfe2d08_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=26100819&
+var sendEmailvue_type_template_id_26100819_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('crown-config',_vm._g({attrs:{"highlighted":_vm.highlighted,"paper":_vm.paper,"graph":_vm.graph,"shape":_vm.shape,"node":_vm.node,"nodeRegistry":_vm.nodeRegistry,"moddle":_vm.moddle,"collaboration":_vm.collaboration,"process-node":_vm.processNode,"plane-elements":_vm.planeElements,"is-rendering":_vm.isRendering,"showConfigIcon":true},on:{"show-config-modal":_vm.showModal}},_vm.$listeners)),_c('b-modal',{ref:"modal",attrs:{"id":"modal-prevent-closing","title":_vm.$t('Config'),"ok-title":_vm.$t('Save'),"cancel-title":_vm.$t('Cancel')},on:{"hidden":function($event){_vm.showConfigModal = false},"ok":_vm.confirm},model:{value:(_vm.showConfigModal),callback:function ($$v) {_vm.showConfigModal=$$v},expression:"showConfigModal"}},[_c('b-container',{attrs:{"fluid":""}},[_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("To:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.receiver),callback:function ($$v) {_vm.receiver=$$v},expression:"receiver"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Cc:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.cc),callback:function ($$v) {_vm.cc=$$v},expression:"cc"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Bcc:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.bcc),callback:function ($$v) {_vm.bcc=$$v},expression:"bcc"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Subject:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Email Subject"},model:{value:(_vm.subject),callback:function ($$v) {_vm.subject=$$v},expression:"subject"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Content:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-textarea',{attrs:{"rows":"5","placeholder":"Email Content"},model:{value:(_vm.body),callback:function ($$v) {_vm.body=$$v},expression:"body"}})],1)],1)],1)],1)],1)}
+var sendEmailvue_type_template_id_26100819_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=9cfe2d08&
+// CONCATENATED MODULE: ./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=26100819&
 
 // EXTERNAL MODULE: ./node_modules/svg-inline-loader!./src/assets/toolpanel/mail.svg
 var mail = __webpack_require__("635b");
@@ -38958,16 +39038,103 @@ var mail_default = /*#__PURE__*/__webpack_require__.n(mail);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
+ // import defaultNames from '@/components/nodes/task/defaultNames';
 
 /* harmony default export */ var sendEmailvue_type_script_lang_js_ = ({
   extends: task_task,
   mixins: [updateIconColor],
+  props: {
+    node: Object
+  },
   data: function data() {
+    var _config$receiver, _config$cc, _config$bcc, _config$subject, _config$body;
+
+    var node = this.node;
+    var config = JSON.parse(node.definition.config);
     return {
-      nodeIcon: mail_default.a
+      nodeIcon: mail_default.a,
+      showConfigModal: true,
+      receiver: (_config$receiver = config.receiver) !== null && _config$receiver !== void 0 ? _config$receiver : '',
+      cc: (_config$cc = config.cc) !== null && _config$cc !== void 0 ? _config$cc : '',
+      bcc: (_config$bcc = config.bcc) !== null && _config$bcc !== void 0 ? _config$bcc : '',
+      subject: (_config$subject = config.subject) !== null && _config$subject !== void 0 ? _config$subject : '',
+      body: (_config$body = config.body) !== null && _config$body !== void 0 ? _config$body : ''
     };
+  },
+  methods: {
+    confirm: function confirm() {
+      var node = this.node;
+      var config = JSON.parse(node.definition.config);
+      config.receiver = this.receiver;
+      config.cc = this.cc;
+      config.bcc = this.bcc;
+      config.subject = this.subject;
+      config.body = this.body;
+      node.definition.config = JSON.stringify(config);
+      this.$emit('replace-node', node);
+    },
+    showModal: function showModal() {
+      this.showConfigModal = true;
+    }
   }
 });
 // CONCATENATED MODULE: ./src/components/nodes/sendEmail/sendEmail.vue?vue&type=script&lang=js&
@@ -38982,8 +39149,8 @@ var mail_default = /*#__PURE__*/__webpack_require__.n(mail);
 
 var sendEmail_component = normalizeComponent(
   sendEmail_sendEmailvue_type_script_lang_js_,
-  sendEmailvue_type_template_id_9cfe2d08_render,
-  sendEmailvue_type_template_id_9cfe2d08_staticRenderFns,
+  sendEmailvue_type_template_id_26100819_render,
+  sendEmailvue_type_template_id_26100819_staticRenderFns,
   false,
   null,
   null,
@@ -39034,6 +39201,10 @@ window.ProcessMaker.EventBus.$on('modeler-init', function (_ref) {
           width: 116
         })
       });
+    },
+    confirm: function confirm() {
+      var msg = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      alert(msg);
     },
 
     /* Map values from inspector data to node definition  */
@@ -39158,7 +39329,6 @@ window.ProcessMaker.EventBus.$on('modeler-init', function (_ref) {
 
 
 
- // export { default as sendMail } from './sendEmail';
 
 
 

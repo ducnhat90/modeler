@@ -1,6 +1,6 @@
 <template>
   <div class="crown-config" :style="style" v-if="showCrown" role="menu">
-    <slot/>
+    <slot />
 
     <association-flow-button
       :node="node"
@@ -43,12 +43,6 @@
       v-on="$listeners"
     />
 
-    <config-button
-      v-if="showConfigIcon"
-      :node="node"
-      v-on="$listeners"
-    />
-
     <copy-button
       :node="node"
       v-on="$listeners"
@@ -82,14 +76,13 @@ import MessageFlowButton from '@/components/crown/crownButtons/messageFlowButton
 import SequenceFlowButton from '@/components/crown/crownButtons/sequenceFlowButton';
 import AssociationFlowButton from '@/components/crown/crownButtons/associationFlowButton';
 import CopyButton from '@/components/crown/crownButtons/copyButton.vue';
-import ConfigButton from '@/components/crown/crownButtons/configButton.vue';
 import CrownDropdowns from '@/components/crown/crownButtons/crownDropdowns';
 import DefaultFlow from '@/components/crown/crownButtons/defaultFlowButton.vue';
 import poolLaneCrownConfig from '@/mixins/poolLaneCrownConfig';
 import pull from 'lodash/pull';
 import store from '@/store';
 import isEqual from 'lodash/isEqual';
-import {getDefaultNodeColors, setShapeColor} from '@/components/nodeColors';
+import { getDefaultNodeColors, setShapeColor } from '@/components/nodeColors';
 
 export default {
   components: {
@@ -100,7 +93,6 @@ export default {
     AssociationFlowButton,
     CopyButton,
     DefaultFlow,
-    ConfigButton,
   },
   props: {
     highlighted: Boolean,
@@ -122,7 +114,6 @@ export default {
       type: Array,
       default: () => [],
     },
-    showConfigIcon: Boolean,
   },
   mixins: [poolLaneCrownConfig],
   watch: {
@@ -183,7 +174,7 @@ export default {
   methods: {
     setNodeColor() {
       const color = this.node.definition.get('color');
-      const {fill, stroke} = getDefaultNodeColors(this.node, color);
+      const { fill, stroke } = getDefaultNodeColors(this.node, color);
 
       setShapeColor(this.shape, fill, stroke);
     },
@@ -218,7 +209,7 @@ export default {
         return;
       }
 
-      const {x, y, width} = shapeView.getBBox({useModelGeometry: !this.isTextAnnotation && !this.isFlow});
+      const { x, y, width } = shapeView.getBBox({ useModelGeometry: !this.isTextAnnotation && !this.isFlow });
 
       this.style = {
         top: `${y - 45}px`,
@@ -294,4 +285,4 @@ export default {
 };
 </script>
 
-<style lang="scss" src="./crownConfig.scss"/>
+<style lang="scss" src="./crownConfig.scss" />

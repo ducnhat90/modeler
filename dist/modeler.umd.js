@@ -39019,12 +39019,12 @@ function registerNodes(_ref) {
   });
   registerBpmnExtension('pm', processmaker);
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=26100819&
-var sendEmailvue_type_template_id_26100819_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('crown-config',_vm._g({attrs:{"highlighted":_vm.highlighted,"paper":_vm.paper,"graph":_vm.graph,"shape":_vm.shape,"node":_vm.node,"nodeRegistry":_vm.nodeRegistry,"moddle":_vm.moddle,"collaboration":_vm.collaboration,"process-node":_vm.processNode,"plane-elements":_vm.planeElements,"is-rendering":_vm.isRendering,"showConfigIcon":true},on:{"show-config-modal":_vm.showModal}},_vm.$listeners)),_c('b-modal',{ref:"modal",attrs:{"id":"modal-prevent-closing","title":_vm.$t('Config'),"ok-title":_vm.$t('Save'),"cancel-title":_vm.$t('Cancel')},on:{"hidden":function($event){_vm.showConfigModal = false},"ok":_vm.confirm},model:{value:(_vm.showConfigModal),callback:function ($$v) {_vm.showConfigModal=$$v},expression:"showConfigModal"}},[_c('b-container',{attrs:{"fluid":""}},[_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("To:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.receiver),callback:function ($$v) {_vm.receiver=$$v},expression:"receiver"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Cc:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.cc),callback:function ($$v) {_vm.cc=$$v},expression:"cc"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Bcc:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.bcc),callback:function ($$v) {_vm.bcc=$$v},expression:"bcc"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Subject:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Email Subject"},model:{value:(_vm.subject),callback:function ($$v) {_vm.subject=$$v},expression:"subject"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Content:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-textarea',{attrs:{"rows":"5","placeholder":"Email Content"},model:{value:(_vm.body),callback:function ($$v) {_vm.body=$$v},expression:"body"}})],1)],1)],1)],1)],1)}
-var sendEmailvue_type_template_id_26100819_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6c01af61-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=e8e1afd2&
+var sendEmailvue_type_template_id_e8e1afd2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('crown-config',_vm._g({attrs:{"highlighted":_vm.highlighted,"paper":_vm.paper,"graph":_vm.graph,"shape":_vm.shape,"node":_vm.node,"nodeRegistry":_vm.nodeRegistry,"moddle":_vm.moddle,"collaboration":_vm.collaboration,"process-node":_vm.processNode,"plane-elements":_vm.planeElements,"is-rendering":_vm.isRendering,"showConfigIcon":true},on:{"show-config-modal":_vm.showModal}},_vm.$listeners)),_c('b-modal',{ref:"modal",attrs:{"id":"modal-prevent-closing","title":_vm.$t('Config'),"ok-title":_vm.$t('Save'),"cancel-title":_vm.$t('Cancel')},on:{"hidden":function($event){_vm.showConfigModal = false},"ok":_vm.confirm},model:{value:(_vm.showConfigModal),callback:function ($$v) {_vm.showConfigModal=$$v},expression:"showConfigModal"}},[_c('b-container',{attrs:{"fluid":""}},[_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("To:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.receiver),callback:function ($$v) {_vm.receiver=$$v},expression:"receiver"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Cc:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.cc),callback:function ($$v) {_vm.cc=$$v},expression:"cc"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Bcc:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Receiver's Email"},model:{value:(_vm.bcc),callback:function ($$v) {_vm.bcc=$$v},expression:"bcc"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Subject:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-input',{attrs:{"placeholder":"Email Subject"},model:{value:(_vm.subject),callback:function ($$v) {_vm.subject=$$v},expression:"subject"}})],1)],1),_c('b-row',{staticClass:"my-1"},[_c('b-col',{staticClass:"align-middle",attrs:{"sm":"3"}},[_c('label',[_vm._v("Content:")])]),_c('b-col',{attrs:{"sm":"9"}},[_c('b-form-textarea',{attrs:{"rows":"5","placeholder":"Email Content"},model:{value:(_vm.body),callback:function ($$v) {_vm.body=$$v},expression:"body"}})],1)],1)],1)],1)],1)}
+var sendEmailvue_type_template_id_e8e1afd2_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=26100819&
+// CONCATENATED MODULE: ./src/components/nodes/sendEmail/sendEmail.vue?vue&type=template&id=e8e1afd2&
 
 // EXTERNAL MODULE: ./node_modules/svg-inline-loader!./src/assets/toolpanel/mail.svg
 var mail = __webpack_require__("635b");
@@ -39106,7 +39106,6 @@ var mail_default = /*#__PURE__*/__webpack_require__.n(mail);
 //
 
 
- // import defaultNames from '@/components/nodes/task/defaultNames';
 
 /* harmony default export */ var sendEmailvue_type_script_lang_js_ = ({
   extends: task_task,
@@ -39121,7 +39120,7 @@ var mail_default = /*#__PURE__*/__webpack_require__.n(mail);
     var config = JSON.parse(node.definition.config);
     return {
       nodeIcon: mail_default.a,
-      showConfigModal: true,
+      showConfigModal: false,
       receiver: (_config$receiver = config.receiver) !== null && _config$receiver !== void 0 ? _config$receiver : '',
       cc: (_config$cc = config.cc) !== null && _config$cc !== void 0 ? _config$cc : '',
       bcc: (_config$bcc = config.bcc) !== null && _config$bcc !== void 0 ? _config$bcc : '',
@@ -39139,7 +39138,9 @@ var mail_default = /*#__PURE__*/__webpack_require__.n(mail);
       config.subject = this.subject;
       config.body = this.body;
       node.definition.config = JSON.stringify(config);
-      this.$emit('replace-node', node);
+      this.$emit('replace-node-type', {
+        node: node
+      });
     },
     showModal: function showModal() {
       this.showConfigModal = true;
@@ -39158,8 +39159,8 @@ var mail_default = /*#__PURE__*/__webpack_require__.n(mail);
 
 var sendEmail_component = normalizeComponent(
   sendEmail_sendEmailvue_type_script_lang_js_,
-  sendEmailvue_type_template_id_26100819_render,
-  sendEmailvue_type_template_id_26100819_staticRenderFns,
+  sendEmailvue_type_template_id_e8e1afd2_render,
+  sendEmailvue_type_template_id_e8e1afd2_staticRenderFns,
   false,
   null,
   null,

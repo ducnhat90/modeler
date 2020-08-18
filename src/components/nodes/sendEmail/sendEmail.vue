@@ -75,7 +75,6 @@
 import TaskComponent from '@/components/nodes/task/task';
 import mailIcon from '!!svg-inline-loader!@/assets/toolpanel/mail.svg';
 import updateIconColor from '@/mixins/updateIconColor';
-// import defaultNames from '@/components/nodes/task/defaultNames';
 
 export default {
   extends: TaskComponent,
@@ -89,7 +88,7 @@ export default {
 
     return {
       nodeIcon: mailIcon,
-      showConfigModal: true,
+      showConfigModal: false,
       receiver: config.receiver ?? '',
       cc: config.cc ?? '',
       bcc: config.bcc ?? '',
@@ -107,7 +106,7 @@ export default {
       config.subject = this.subject;
       config.body = this.body;
       node.definition.config = JSON.stringify(config);
-      this.$emit('replace-node', node);
+      this.$emit('replace-node-type', {node});
     },
     showModal() {
       this.showConfigModal = true;

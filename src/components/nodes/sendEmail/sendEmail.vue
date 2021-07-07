@@ -12,8 +12,6 @@
       :process-node="processNode"
       :plane-elements="planeElements"
       :is-rendering="isRendering"
-      :showConfigIcon="true"
-      @show-config-modal="showModal"
       v-on="$listeners"
     />
     <b-modal
@@ -75,6 +73,7 @@
 import TaskComponent from '@/components/nodes/task/task';
 import mailIcon from '!!svg-inline-loader!@/assets/toolpanel/mail.svg';
 import updateIconColor from '@/mixins/updateIconColor';
+import coloredIcon from '@/components/iconColors';
 
 export default {
   extends: TaskComponent,
@@ -111,6 +110,18 @@ export default {
     showModal() {
       this.showConfigModal = true;
     },
+    setIconColor() {
+      /* Temporary fix to prevent connector icons from switching to the user task icon.
+      *  Leaves connector icon the original color. */
+      if (!this.nodeIcon) {
+        return;
+      }
+
+      this.shape.attr('image/xlink:href', coloredIcon(this.nodeIcon, this.node));
+    },
+  },
+  mounted() {
+    this.setIconColor();
   },
 };
 </script>
